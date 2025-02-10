@@ -253,6 +253,41 @@ li a:hover::before {
   border-radius: 2rem;
 }
 
+
+/* Project */
+
+
+#sunda{
+  background-color: #b08b6f;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-weight: 300;
+  display: flex;
+}
+
+#sunda button{
+  background-color: #b08b6f;
+  padding: 0.8rem 1.5rem;
+  border-radius: 3rem;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  text-wrap: nowrap;
+  transition: 0.6 ease-in-out;
+  background-color: #aa866a;
+}
+
+#sunda button:hover{
+  transform: scale(1.03);
+  background-color: #7d5a4f;
+}
+
+#sunda button a{
+  color: whitesmoke;
+}
+
 /* Contact Section */
 .contact {
   width: 60rem;
