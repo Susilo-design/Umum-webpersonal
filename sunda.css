@@ -84,7 +84,8 @@ header a {
 
 }
 
-.home{
+
+#home{  
     display: flex;
     margin-top: 150px;
 }
