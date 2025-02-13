@@ -9,7 +9,6 @@ menuicon.onclick = () => {
 const toggleButton = document.getElementById('toggleButton');
 const certificateSection = document.getElementById('certificateSection');
 const skillsSection = document.getElementById('skillsSection');
-  
 certificateSection.style.display = 'none';
 
 
