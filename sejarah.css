@@ -19,6 +19,18 @@ section {
     position: relative;
 }
 
+.p-text{
+    font-size: 16px;
+    line-height: 1.5;
+    width: 80%;  
+}
 
-
+.d-flex{
+    gap: 10rem;
+}
+.d-flex img{
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
 
