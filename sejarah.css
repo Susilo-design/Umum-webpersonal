@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+
+#home p{
+  width: 50%;
+  font-size: 1.5rem;
+  position: relative;
+  left: 25%;
+  text-align: center;
+}
+
 .container-text {
   border: 2px solid #000;
   padding: 20px;
