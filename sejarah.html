@@ -53,7 +53,7 @@
     <section id="pertama" class="container mt-5">
       <h1>Revolusi Industri 1.0 (1760 - 1840): Era Mekanisasi</h1>
       <div class="d-flex">
-        <div class="p-text">
+        <div class="p-text hidden">
           <p>
             Revolusi Industri pertama dimulai pada abad ke-18 di Inggris dan
             ditandai dengan peralihan dari produksi berbasis tenaga manusia dan
@@ -70,7 +70,11 @@
             <li>Perkembangan transportasi dengan kereta api dan kapal uap.</li>
           </ul>
         </div>
-        <img src="asset/Evo 1.0.png" alt="Evolusi 1.0" />
+        <img
+          src="asset/Evo 1.0.png"
+          alt="Evolusi 1.0"
+          onclick="toggleText(this)"
+        />
       </div>
     </section>
 
@@ -79,8 +83,12 @@
         Revolusi Industri 2.0 (1870 - 1914): Era Produksi Massal dan Listrik
       </h1>
       <div class="d-flex">
-        <img src="asset/Evo 2.0.png" alt="Evolusi 2.0" />
-        <div class="p-text">
+        <img
+          src="asset/Evo 2.0.png"
+          alt="Evolusi 2.0"
+          onclick="toggleText(this)"
+        />
+        <div class="p-text hidden">
           <p>
             Pada akhir abad ke-19, Revolusi Industri kedua terjadi dengan
             diperkenalkannya listrik sebagai sumber energi utama. Ini
@@ -104,7 +112,7 @@
     <section id="ketiga" class="container mt-5">
       <h2>Revolusi Industri 3.0 (1950 - 2000): Era Digital dan Otomasi</h2>
       <div class="d-flex">
-        <div class="p-text">
+        <div class="p-text hidden">
           <p>
             Revolusi Industri ketiga dimulai pada pertengahan abad ke-20 dengan
             kemunculan komputer dan teknologi digital. Perkembangan
@@ -118,15 +126,23 @@
             <li>Munculnya kecerdasan buatan (AI).</li>
           </ul>
         </div>
-        <img src="asset/Evo 3.0.png" alt="Evolusi 3.0" />
+        <img
+          src="asset/Evo 3.0.png"
+          alt="Evolusi 3.0"
+          onclick="toggleText(this)"
+        />
       </div>
     </section>
 
     <section id="keempat" class="container mt-5">
       <h2>Revolusi Industri 4.0 (Abad ke-21 - Sekarang)</h2>
       <div class="d-flex">
-        <img src="asset/Evo 4.0.png" alt="Evolusi 4.0" />
-        <div class="p-text">
+        <img
+          src="asset/Evo 4.0.png"
+          alt="Evolusi 4.0"
+          onclick="toggleText(this)"
+        />
+        <div class="p-text hidden">
           <p>
             Revolusi Industri keempat adalah era digitalisasi penuh di mana
             teknologi seperti kecerdasan buatan (AI), Internet of Things (IoT),
@@ -143,6 +159,13 @@
       </div>
     </section>
 
+    <script>
+      function toggleText(img) {
+        const textDiv = img.nextElementSibling || img.previousElementSibling;
+        textDiv.classList.toggle("hidden");
+        textDiv.classList.toggle("visible");
+      }
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

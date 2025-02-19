@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-
-#home p{
+#home p {
   width: 50%;
   font-size: 1.5rem;
   position: relative;
@@ -22,38 +21,49 @@
 }
 
 section {
-    min-height: 100vh;
-    padding: 8rem 12%;
-    width: 100%;
-    position: relative;
+  min-height: 100vh;
+  padding: 8rem 12%;
+  width: 100%;
+  position: relative;
 }
 
-.p-text{
-    font-size: 16px;
-    line-height: 1.5;
-    width: 80%;  
+.p-text {
+  font-size: 16px;
+  line-height: 1.5;
+  width: 80%;
 }
 
-.d-flex{
-    gap: 10rem;
+.d-flex {
+  gap: 10rem;
 }
-.d-flex img{
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
+.d-flex img {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
 }
 
-header{
+header {
   background-color: slategrey;
 }
 
+.hidden {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
 
-@media  screen and (max-width: 768px){
-  .d-flex{
+.visible {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .d-flex {
     flex-direction: column;
     align-items: center;
   }
-  .d-flex img{
+  .d-flex img {
     width: 100%;
     margin-top: 20px;
   }
