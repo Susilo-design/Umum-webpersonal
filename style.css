@@ -203,7 +203,7 @@ nav-link .drop-down li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  gap: 1.2rem;
+  gap: 7rem;
 }
 .porto-tittle {
   position: relative;
@@ -257,6 +257,13 @@ nav-link .drop-down li {
 
 .certificate img {
   width: 100%;
+  transition: ease-in-out;
+  transition-duration: 0.7s;
+}
+.certificate img:hover{
+  width: 120%;
+  transition: ease-in-out;
+  transition-duration: 0.7s;
 }
 
 /* Education Section */
