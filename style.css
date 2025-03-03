@@ -104,8 +104,6 @@ nav-link .drop-down li {
   display: block;
 }
 
-
-
 .visit-btn {
   padding: 0.8rem 1.5rem;
   border-radius: 8rem;
@@ -203,7 +201,7 @@ nav-link .drop-down li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  gap: 7rem;
+  gap: 1rem;
 }
 .porto-tittle {
   position: relative;
@@ -257,11 +255,6 @@ nav-link .drop-down li {
 
 .certificate img {
   width: 100%;
-  transition: ease-in-out;
-  transition-duration: 0.7s;
-}
-.certificate img:hover{
-  width: 120%;
   transition: ease-in-out;
   transition-duration: 0.7s;
 }
